@@ -1,9 +1,5 @@
-Dataset: Mortility by week,,,,,,,,,,,
-Year,2023,,,,,,,,,,
-Gender,All,,,,,,,,,,
-Age,All,,,,,,,,,,
-Variable,COVID-19 deaths (number),,,,,,,,,,
-,Countries,Australia,Canada,France,Germany,Israel,Italy,New Zealand,Spain,United Kingdom,United States
+
+Australia,Canada,France,Germany,Israel,Italy,New Zealand,Spain,United Kingdom,United States
 ,Week,,,,,,,,,,
 ,1,0,258,783,829,46,615,0,202,842,3878
 ,2,0,332,514,517,24,568,0,178,1060,3698
