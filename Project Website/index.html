@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID-19 Deaths Visualization</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://d3js.org/topojson.v3.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="Resource-Allocation.html">Mortality Numbers</a></li>
+                <li><a href="Vaccination-Timeline.html">Vaccination Timeline</a></li>
+            </ul>
+        </nav><br>
+        <h1 id="heading-1">COVID-19 Mortality Numbers</h1>
+    </header>
+    <main>
+        <div id="controls">
+            <button id="table-button">Table</button>
+            <button id="map-button">Map</button>
+            <button id="chart-button">Chart</button>
+            <select id="country-select">
+                <option value="Australia">Australia</option>
+                <option value="Canada">Canada</option>
+                <option value="France">France</option>
+                <option value="Germany">Germany</option>
+                <option value="Israel">Israel</option>
+                <option value="Italy">Italy</option>
+                <option value="New Zealand">New Zealand</option>
+                <option value="Spain">Spain</option>
+                <option value="United Kingdom">United Kingdom</option>
+                <option value="United States">United States</option>
+            </select>
+            <button id="play-timelapse">Play Time-lapse</button>
+        </div>
+	<div id="table-content"></div>
+        <div id="map-content"></div>
+        <div id="chart-content"></div>
+        <script src="tableScript.js"></script>
+        <script src="mapScript.js"></script>
+        <script src="chartScript.js"></script>
+    </main>
+</body>
+</html>

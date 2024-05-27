@@ -1,0 +1,156 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+#controls {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#controls button, #controls select {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#table-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+#table-content th, #table-content td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+#table-content th {
+    background-color: #f2f2f2;
+}
+
+.country.highlighted {
+    fill: steelblue;
+    stroke: white;
+}
+
+.country.other {
+    fill: #ccc;
+    stroke: white;
+}
+
+.country-label {
+    font-size: 14px;
+    font-weight: bold;
+    fill: black;
+    text-shadow: 1px 1px 2px white;
+}
+.info-box {
+    fill: white;
+    stroke: steelblue;
+    stroke-width: 2px;
+}
+.info-text {
+    font: 12px sans-serif;
+    fill: steelblue;
+}
+
+#map-button, #table-button, #chart-button{
+background-color: #333;
+border: none;
+color: #fff;
+border-radius: 8px;
+box-shadow: 1px;
+width: 100px;
+}
+
+#play-timelapse{
+background-color:#d65d26;
+border: none;
+border-radius: 8px;
+box-shadow: 1px;
+width: 200px;
+}
+
+.dashboard {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
+width: 100%;
+justify-content: center;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+    overflow: hidden;
+width: 500px;
+}
+
+.card img {
+    width: 500px;
+    height:300px;
+    display: block;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-content {
+    padding: 1em;
+}
+
+.card-content h2 {
+    margin-top: 0;
+    font-size: 1.5em;
+}
+
+.card-content p {
+    color: #777;
+}
+
+footer{
+background-color: lightsteelblue;
+height: 100%;
+width: 100%;
+}
+

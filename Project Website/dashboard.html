@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Health Resource Allocation Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+	<nav>
+         <ul>
+	<li><a href="dashboard.html">Home</a></li>
+	<li><a href="index.html">Mortality Numbers</a></li>
+	<li><a href="viz-2.html">Resources Allocation</a></li>
+	</ul>
+	</nav><br><br><br>
+        <h1>Global Health Resource Allocation During the Pandemic</h1>
+        <p>Australia vs Other Majorly Affected Countries</p>
+    </header><br><Br><BR>
+    <main>
+	<div class="dashboard">
+            <div class="card" id="visualization-1-card">
+                <img src="images/img-1.jpg" alt="OECD Mortality Rates Visualization">
+                <div class="card-content">
+                    <h2>OECD Mortality Rates: Australia vs Other Majorly Affected Countries</h2>
+                    <p>Explore COVID-19 mortality numbers, maps, and charts for Australia and other affected countries.</p>
+                </div>
+            </div>
+            <div class="card" id="visualization-2-card">
+                <img src="images/img-2.jpg" alt="Resource Allocation Visualization">
+                <div class="card-content">
+                    <h2>Resource Allocation Process in Australia</h2>
+                    <p>Explore how resources were allocated in Australia during the pandemic.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Global Health Resource Allocation Dashboard. All rights reserved.</p>
+        <p>CL01-T9</p>
+    </footer>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById('visualization-1-card').addEventListener('click', function() {
+        window.location.href = 'index.html';
+    });
+
+    document.getElementById('visualization-2-card').addEventListener('click', function() {
+        window.location.href = 'visualization2.html';
+    });
+});
+    </script>
+</body>
+</html>
